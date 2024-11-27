@@ -32,7 +32,7 @@ func main() {
 				Habitat: "Darat",   // Habitat Mamalia adalah darat
 			},
 			Nama:      "rifai",
-			Umur:      20,
+			Umur:       20,
 			Kebangsaan: "Indonesia",
 		},
 		Fakultas: "Mipa",

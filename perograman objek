@@ -31,7 +31,7 @@ func main() {
 				Jenis:   "Manusia", // Jenis Mamalia adalah Manusia
 				Habitat: "Darat",   // Habitat Mamalia adalah darat
 			},
-			Nama:       "rifai"
+			Nama:       "rifai",
 			Umur:       20,
 			Kebangsaan: "Indonesia",
 		},

@@ -4,7 +4,7 @@ import "fmt"
 
 // Mamalia: Struktur yang mewakili makhluk hidup tak berakal (mamalia).
 type Mamalia struct {
-	Jenis   string // Jenis mamalia, seperti "Manusia", "kerbau", "monyet"
+	Jenis   string // Jenis mamalia, seperti "Manusia", "Kerbau", "monyet"
 	Habitat string // Habitat mamalia, seperti "Darat", "Air"
 }
 
@@ -31,10 +31,21 @@ func main() {
 				Jenis:   "Manusia", // Jenis Mamalia adalah Manusia
 				Habitat: "Darat",   // Habitat Mamalia adalah darat
 			},
-			Nama:       "rifai",
+			Nama:       "rifai,
 			Umur:       20,
 			Kebangsaan: "Indonesia",
 		},
 		Fakultas: "Mipa",
 		Jurusan:  "Ilmu komputer",
 	}
+
+	// Menampilkan informasi mahasiswa
+	fmt.Println("Informasi Mahasiswa:")
+	fmt.Println("Nama:", mahasiswa.Nama)
+	fmt.Println("Umur:", mahasiswa.Umur)
+	fmt.Println("Kebangsaan:", mahasiswa.Kebangsaan)
+	fmt.Println("Fakultas:", mahasiswa.Fakultas)
+	fmt.Println("Jurusan:", mahasiswa.Jurusan)
+	fmt.Println("Jenis Mamalia:", mahasiswa.Mamalia.Jenis)
+	fmt.Println("Habitat Mamalia:", mahasiswa.Mamalia.Habitat)
+}
